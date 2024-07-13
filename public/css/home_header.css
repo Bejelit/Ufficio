@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #111823;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 2px 5px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    float: right;
+}
+
+.header a, form {
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.authy {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.authy:hover {
+    color: #ba3a46;
+}
+
+.BottoneHead {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 15px;
+    color: #ba3a46;
+    background-color: transparent;
+    border: 3px solid #ba3a46;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.back {
+    float: left;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 15px;
+    color: #ba3a46;
+    background-color: transparent;
+    border: 3px solid #ba3a46;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.BottoneHead:hover {
+    background-color: #ba3a46;
+    color: #111823;
+}

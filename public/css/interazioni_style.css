@@ -1,0 +1,40 @@
+
+form.auth_operation {
+    display: flex;
+
+    justify-content: center;
+    gap: 10px;
+}
+
+a.modifica {
+    background-color: #4caeff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;font-size: small;
+}
+
+a.visualizza {
+    background-color: #3a8035;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;font-size: small;
+}
+
+button.elimina {
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a.modifica:hover, button.elimina:hover {
+    opacity: 0.8;
+}
